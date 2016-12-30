@@ -10,8 +10,8 @@ public class BallControl : MonoBehaviour {
     }
 
     public Rigidbody rb;
-    float rotationSpeed = 100;
-    float jumpHeight = 8;
+    public float rotationSpeed = 100;
+    public float jumpHeight = 8;
     private bool isFalling = false;
 
     // Update is called once per frame
